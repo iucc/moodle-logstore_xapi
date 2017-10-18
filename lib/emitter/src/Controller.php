@@ -24,6 +24,7 @@ class Controller extends PhpObj {
     protected $repo;
     public static $routes = [
         'course_viewed' => 'CourseViewed',
+        'hvp_xapi_statement' => 'H5PxAPIEvent',
         'course_completed' => 'CourseCompleted',
         'discussion_viewed' => 'DiscussionViewed',
         'module_viewed' => 'ModuleViewed',

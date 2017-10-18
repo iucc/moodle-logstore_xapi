@@ -23,6 +23,8 @@ use \stdClass as PhpObj;
 class Controller extends PhpObj {
     protected $repo;
     public static $routes = [
+        '\mod_hvp\event\course_module_viewed' => 'ModuleEvent',
+        '\mod_hvp\event\hvp_xapi_statement' => 'H5PxAPIEvent',
         '\core\event\course_viewed' => 'Event',
         '\mod_page\event\course_module_viewed' => 'ModuleEvent',
         '\mod_quiz\event\course_module_viewed' => 'ModuleEvent',
